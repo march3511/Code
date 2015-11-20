@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    font-family: "Helvetica";
+    font-size: 14px;
+}
+a {
+    color: hsl(208,56%,53%);
+    text-decoration: none;
+}
+a:hover {
+    color: hsl(208,56%,38%);
+    text-decoration: underline;
+}
+.contenedor {
+    width: 1400px;
+    margin: 0 auto;
+}
+header {
+    background: url('../img/fondo.png');
+    color: hsl(0,0%,100%);
+    height: 200px;
+}
+header .contenedor {
+    padding-top: 40px;
+}
+header h1 {
+    font-size: 70px;
+    margin: 0;
+    font-weight: 500;
+}
+header p {
+    font-size: 20px;
+    margin: 0;
+}
+nav {
+    background: hsl(264,34%,30%);
+    height: 49px;
+    margin-bottom: 30px;
+}
+nav ul {
+    list-style: none;
+    float: left;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+    margin: 0 20px;
+}
+nav ul li:first-of-type {
+    margin-left: 0;
+}
+nav ul li a {
+    color: hsl(263,39%,82%);
+    text-decoration: none;
+    display: block;
+    line-height: 19px;
+}
+nav ul li a:hover {
+    color: hsl(0,0%,100%);
+    text-decoration: none;
+}
+aside {
+    width: 280px;
+    float: left;
+    background: hsl(264,33%,97%);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+aside ul li {
+    font-size: 13px;
+    line-height: 25px;
+}
+aside li:not(:first-of-type):hover {
+    background: hsl(264,33%,90%);
+}
+aside ul li:first-of-type {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: hsl(264,34%,36%);
+    padding-left: 30px;
+}
+aside ul li a {
+    color: hsl(260,7%,45%);
+    text-decoration: none;
+    display: block;
+    padding-left: 50px;
+}
+aside ul li a:hover {
+    text-decoration: none;
+}
+.contenido {
+    width: 800px;
+    float: left;
+    background: hsl(264,33%,97%);
+    border-radius: 5px;
+}
+.contenido article {
+    padding: 15px 30px;
+    text-align: justify;
+}
+.contenido article h2 {
+    margin-top: 0;
+}
+footer {
+    background: hsl(264,34%,30%);
+    clear: both;
+    color: hsl(0,0%,100%);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 13px;
+}
+footer a:hover {
+    color: hsl(0,0%,100%);
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica";
+    font-size: 14px;
+}
+a {
+    color: hsl(208,56%,53%);
+    text-decoration: none;
+}
+a:hover {
+    color: hsl(208,56%,38%);
+    text-decoration: underline;
+}
+.contenedor {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    background: url('../img/fondo.png');
+    color: hsl(0,0%,100%);
+    height: 200px;
+}
+header .contenedor {
+    padding-top: 40px;
+}
+header h1 {
+    font-size: 70px;
+    margin: 0;
+    font-weight: 500;
+}
+header p {
+    font-size: 20px;
+    margin: 0;
+}
+nav {
+    background: hsl(264,34%,30%);
+    height: 49px;
+    margin-bottom: 30px;
+}
+nav ul {
+    list-style: none;
+    float: left;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+    margin: 0 20px;
+}
+nav ul li:first-of-type {
+    margin-left: 0;
+}
+nav ul li a {
+    color: hsl(263,39%,82%);
+    text-decoration: none;
+    display: block;
+    line-height: 19px;
+}
+nav ul li a:hover {
+    color: hsl(0,0%,100%);
+    text-decoration: none;
+}
+aside {
+    width: 250px;
+    float: left;
+    background: hsl(264,33%,97%);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+aside ul li {
+    font-size: 13px;
+    line-height: 25px;
+}
+aside li:not(:first-of-type):hover {
+    background: hsl(264,33%,90%);
+}
+aside ul li:first-of-type {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: hsl(264,34%,36%);
+    padding-left: 30px;
+}
+aside ul li a {
+    color: hsl(260,7%,45%);
+    text-decoration: none;
+    display: block;
+    padding-left: 50px;
+}
+aside ul li a:hover {
+    text-decoration: none;
+}
+.contenido {
+    width: 930px;
+    float: left;
+    background: hsl(264,33%,97%);
+    border-radius: 5px;
+}
+.contenido article {
+    padding: 15px 30px;
+    text-align: justify;
+}
+.contenido article h2 {
+    margin-top: 0;
+}
+footer {
+    background: hsl(264,34%,30%);
+    clear: both;
+    color: hsl(0,0%,100%);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 13px;
+}
+footer a:hover {
+    color: hsl(0,0%,100%);
+    text-decoration: underline;
+}
+#cssmenu ul { margin: 0; padding: 0;}
+#cssmenu li { margin: 0; padding: 0;}
+#cssmenu a { margin: 0; padding: 0;}
+#cssmenu ul {list-style: none;}
+#cssmenu a {text-decoration: none;}
+#cssmenu {height: 49px; background-color: rgb(35,35,35); box-shadow: 0px 2px 3px rgba(0,0,0,.4);}
+
+
+#cssmenu > ul > li {
+    float: left;
+    margin-left: 5px;
+    position: relative;
+}
+
+#cssmenu > ul > li > a {
+    color: rgb(160,160,160);
+    font-family: Verdana, 'Lucida Grande';
+    font-size: 15px;
+    line-height: 70px;
+    padding: 0px 20px;
+}
+
+#cssmenu > ul > li > a:hover {color: rgb(250,250,250); }
+
+
+#cssmenu > ul > li > ul {
+    opacity: 0;
+    visibility: hidden;
+    padding: 6px 0 5px 0;
+    background-color: rgb(250,250,250);
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -90px;
+    width: 180px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+    box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+}
+
+#cssmenu > ul > li:hover > ul {
+    opacity: 1;
+    top: 55px;
+    visibility: visible;
+}
+
+#cssmenu > ul > li > ul:before{
+    content: '';
+    display: block;
+    border-color: transparent transparent rgb(250,250,250) transparent;
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -10px;
+}
+
+#cssmenu > ul ul > li { position: relative;}
+
+#cssmenu ul ul a{
+    color: rgb(50,50,50);
+    font-family: Verdana, 'Lucida Grande';
+    font-size: 13px;
+    background-color: rgb(250,250,250);
+    padding: 5px 8px 7px 16px;
+    display: block;
+}
+
+#cssmenu ul ul a:hover {background-color: rgb(240,240,240);}
+
+
+#cssmenu ul ul ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: -16px;
+    left: 206px;
+    padding: 16px 0 20px 0;
+    background-color: rgb(250,250,250);
+    text-align: left;
+    width: 160px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+    box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+}
+
+
+#cssmenu ul ul > li:hover > ul { opacity: 1; left: 196px; visibility: visible;}
+
+
+#cssmenu ul ul a:hover{
+    background-color: rgb(205,44,36);
+    color: rgb(240,240,240);
+}
